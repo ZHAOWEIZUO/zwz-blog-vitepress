@@ -1,0 +1,16 @@
+{
+  "name": "zwz-blog",
+  "version": "1.0.0",
+  "description": "记录学习博客",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.25",
+    "vue": "^3.3.8"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  }
+}
