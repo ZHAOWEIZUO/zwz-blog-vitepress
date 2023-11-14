@@ -2,7 +2,7 @@
  * @Author: zwz
  * @Date: 2023-11-13 15:36:10
  * @LastEditors: zwz
- * @LastEditTime: 2023-11-14 08:56:09
+ * @LastEditTime: 2023-11-14 16:39:02
  * @Description: 请填写简介
  */
 import { defineConfig } from 'vitepress';
@@ -25,10 +25,22 @@ export default defineConfig({
         ]
       },
       {
-        text: '踩坑记录', link: '/'
+        text: '踩坑记录',
+        items: [
+          {text: 'vite踩坑', link: '/wrongQuestion/vite'}
+        ]
       }
     ],
     sidebar: {
+      '/wrongQuestion/' : [
+        {
+          text: '踩坑',
+          items: [
+            {text: 'vite踩坑记录', link: '/wrongQuestion/vite'}
+          ],
+          collapsed: true
+        }
+      ],
       '/vueSourceCode': [
         {
           text: 'vue源码',
