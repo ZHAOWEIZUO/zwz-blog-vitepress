@@ -2,7 +2,7 @@
  * @Author: zwz
  * @Date: 2023-11-13 15:36:10
  * @LastEditors: zwz
- * @LastEditTime: 2023-11-13 21:10:42
+ * @LastEditTime: 2023-11-14 08:56:09
  * @Description: 请填写简介
  */
 import { defineConfig } from 'vitepress';
@@ -23,6 +23,9 @@ export default defineConfig({
         text: '后端', items:[
           {text: 'MySql', link: '/Mysql'}
         ]
+      },
+      {
+        text: '踩坑记录', link: '/'
       }
     ],
     sidebar: {
@@ -55,6 +58,7 @@ export default defineConfig({
         }
       ]
     },
+    socialLinks: [{ icon: "github", link: "https://github.com/ZHAOWEIZUO/zwz-blog" }],
     docFooter: { prev: '上一篇', next: '下一篇' }
   },
 });
