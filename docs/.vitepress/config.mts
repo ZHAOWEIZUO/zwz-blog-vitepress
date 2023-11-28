@@ -2,7 +2,7 @@
  * @Author: zwz
  * @Date: 2023-11-13 15:36:10
  * @LastEditors: zwz
- * @LastEditTime: 2023-11-15 09:45:25
+ * @LastEditTime: 2023-11-28 11:07:18
  * @Description: 请填写简介
  */
 import { defineConfig } from 'vitepress';
@@ -66,7 +66,8 @@ export default defineConfig({
             {text: '前端模块化', link: '/vite/module'},
             {text: '用vite搭建一个项目', link: '/vite/firstBuild'},
             {text: 'vite样式接入方案', link: '/vite/style'},
-            {text: 'vite接入代码规范', link: '/vite/codeSpecification'}
+            {text: 'vite接入代码规范', link: '/vite/codeSpecification'},
+            {text: 'vite处理静态资源', link: '/vite/static'}
           ],
           collapsed: true
         }
