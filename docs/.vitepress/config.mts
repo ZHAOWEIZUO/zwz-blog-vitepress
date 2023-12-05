@@ -2,7 +2,7 @@
  * @Author: zwz
  * @Date: 2023-11-13 15:36:10
  * @LastEditors: zwz
- * @LastEditTime: 2023-11-28 11:07:18
+ * @LastEditTime: 2023-12-05 10:41:04
  * @Description: 请填写简介
  */
 import { defineConfig } from 'vitepress';
@@ -27,7 +27,8 @@ export default defineConfig({
       {
         text: '踩坑记录',
         items: [
-          {text: 'vite踩坑', link: '/wrongQuestion/vite'}
+          {text: 'vite踩坑', link: '/wrongQuestion/vite'},
+          {text: 'vue踩坑', link: '/wrongQuestion/vue'}
         ]
       }
     ],
@@ -36,7 +37,8 @@ export default defineConfig({
         {
           text: '踩坑',
           items: [
-            {text: 'vite踩坑记录', link: '/wrongQuestion/vite'}
+            {text: 'vite踩坑记录', link: '/wrongQuestion/vite'},
+            {text: 'vue踩坑', link: '/wrongQuestion/vue'}
           ],
           collapsed: true
         }
